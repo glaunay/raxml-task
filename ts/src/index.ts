@@ -29,3 +29,5 @@ export class RAxMLTask extends tk.Task {
 	    }
     }
 }
+
+export {RAxMLTask as Task}

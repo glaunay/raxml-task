@@ -25,3 +25,4 @@ class RAxMLTask extends tk.Task {
     }
 }
 exports.RAxMLTask = RAxMLTask;
+exports.Task = RAxMLTask;
