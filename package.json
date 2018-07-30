@@ -1,22 +1,22 @@
 {
-  "name": "raxml-task",
-  "version": "1.0.3",
-  "description": "",
+  "name": "@glaunay/raxml-task",
+  "version": "1.0.0",
+  "description": "wget https://github.com/stamatak/standard-RAxML/archive/master.zip unzip master.zip.",
   "main": "build/index.js",
+  "dependencies": {
+    "ms-jobmanager": "^2.1.0",
+    "taskobject": "^2.1.12"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ms-jobmanager": "^1.0.1",
-    "taskobject": "^2.1.3"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/glaunay/raxml-task.git"
   },
+  "author": "GL",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/glaunay/raxml-task/issues"
   },
